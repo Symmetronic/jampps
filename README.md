@@ -1,1 +1,1 @@
-# medida
+[jampps logo](/design/logo/logo.png)
