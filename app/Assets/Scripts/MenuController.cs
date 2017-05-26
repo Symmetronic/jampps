@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenu : MonoBehaviour {
+public class MenuController : MonoBehaviour {
 
 	public void ChangeScene(string sceneName) {
-		Application.LoadLevel(sceneName);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
 	}
 }
