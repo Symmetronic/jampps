@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="76.095581mm"
+   height="126.55272mm"
+   viewBox="0 0 269.63001 448.41514"
    id="svg10760"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Lampe3_an.svg">
+   sodipodi:docname="Lampe3_an.svg"
+   inkscape:export-filename="C:\Users\Simon Hochholzer\Documents\Studium\TUD\Bachelor Medieninformatik\4. Semester\Medienpsychologie und -didaktik\Projekt\design\sprites\minigames\licht_ausschalten\Lampen\Lampe3\Lampe3_an.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs10762">
     <linearGradient
@@ -74,7 +77,7 @@
        cy="490.62393"
        fx="150.27269"
        fy="490.62393"
-       r="36.842126"
+       r="36.842125"
        gradientTransform="matrix(1.0682512,0.32614853,-0.49833717,1.6322297,232.82085,-354.90075)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -94,17 +97,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5"
-     inkscape:cx="181.76061"
-     inkscape:cy="575.1579"
+     inkscape:zoom="0.625"
+     inkscape:cx="-260.58837"
+     inkscape:cy="129.33536"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata10765">
     <rdf:RDF>
@@ -120,7 +127,8 @@
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-114.43053,-359.38482)">
     <g
        id="g11347">
       <ellipse
@@ -189,7 +197,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Ebene 2"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-114.43053,-359.38482)">
     <path
        style="opacity:1;fill:#ececec;fill-opacity:0;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 152.40061,523.88578 c -0.385,-0.0449 -1.555,-0.17436 -2.6,-0.28761 -1.045,-0.11324 -3.2091,-0.4692 -4.80911,-0.79101 -15.22319,-3.06184 -27.72874,-11.68703 -30.07545,-20.74329 -0.3947,-1.52319 -0.40656,-4.22568 -0.025,-5.69068 0.15976,-0.61334 0.38929,-2.08668 0.51007,-3.27411 0.57735,-5.67583 2.35845,-13.91168 4.30797,-19.92019 3.32401,-10.24472 7.96094,-19.23547 13.80825,-26.77344 2.04504,-2.63634 6.86138,-7.57499 9.11697,-9.34851 4.64394,-3.65143 9.58134,-6.07099 14.16159,-6.93985 2.13652,-0.40529 6.07721,-0.40398 8.2326,0.003 13.41723,2.53178 22.77298,18.78223 23.30784,40.48449 0.31927,12.95475 -2.01447,25.9255 -6.90907,38.4 -0.53951,1.375 -1.22844,3.13 -1.53097,3.9 -1.71052,4.35367 -5.52619,7.48845 -11.39571,9.36216 -3.51461,1.12197 -6.54518,1.56075 -11.3,1.63607 -2.255,0.0357 -4.415,0.0282 -4.8,-0.0168 z m 10.00452,-1.59087 c 8.28479,-1.15553 14.2452,-4.5979 16.00238,-9.242 0.53185,-1.40562 0.5302,-2.63733 -0.006,-4.59232 -2.88501,-10.51593 -19.39372,-19.98722 -36.75957,-21.08949 -11.63101,-0.73825 -20.6804,2.17715 -24.80012,7.98976 -1.26436,1.78392 -1.3114,4.96477 -0.11752,7.94704 1.16467,2.90928 3.96977,6.3287 7.37645,8.99188 5.91786,4.6263 14.42479,8.14998 23.15285,9.59022 3.89038,0.64196 3.87546,0.6408 8.79028,0.68069 2.82115,0.0229 4.85092,-0.0651 6.36139,-0.27578 z"

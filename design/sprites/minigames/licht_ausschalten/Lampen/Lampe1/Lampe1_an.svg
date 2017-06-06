@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="98.042763mm"
+   height="178.71834mm"
+   viewBox="0 0 347.39562 633.25395"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Lampe1_an.svg">
+   sodipodi:docname="Lampe1_an.svg"
+   inkscape:export-filename="C:\Users\Simon Hochholzer\Documents\Studium\TUD\Bachelor Medieninformatik\4. Semester\Medienpsychologie und -didaktik\Projekt\design\sprites\minigames\licht_ausschalten\Lampen\Lampe1\Lampe1_an.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4">
     <linearGradient
@@ -63,7 +66,7 @@
        cy="407.99411"
        fx="268.34143"
        fy="407.99411"
-       r="70.97498"
+       r="70.974983"
        gradientTransform="matrix(-0.68962315,0.40688887,-0.29714392,-0.49727224,567.39841,513.27376)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -95,17 +98,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="307.07326"
-     inkscape:cy="497.96643"
+     inkscape:zoom="0.5"
+     inkscape:cx="-271.86562"
+     inkscape:cy="252.96033"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -121,7 +128,8 @@
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-188.33717,-322.33848)">
     <g
        id="g4213">
       <ellipse
@@ -175,8 +183,7 @@
        rx="14.65"
        ry="15.95" />
     <g
-       id="g4346"
-       style="">
+       id="g4346">
       <path
          inkscape:connector-curvature="0"
          id="path4164"
