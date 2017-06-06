@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/FirstChapter.unity
+- path: Assets/_Scenes/Templates/Minigames/MinigameLight.unity
   isLoaded: 1
   isActive: 1
