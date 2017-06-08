@@ -35,7 +35,7 @@ Szene wechselt danach in den Flur
 MUTTER: Hier ist dein Essen. Ich habe dir auch eine große Flasche Saft eingepackt!
 Wieder Karsten
 
-KARSTEN: Plastikflaschen ohne Pfand erzeugen viel Müll! Pfandflaschen sind besser, denn die kannst du immer wieder auffüllen!
+KARSTEN: Plastikflaschen ohne Pfand erzeugen viel Müll! Glaspfandflaschen sind besser, denn die kannst du immer wieder auffüllen!
 
 Szenenwechsel, vor der Haustür
 
