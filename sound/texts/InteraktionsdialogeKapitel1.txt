@@ -1,98 +1,46 @@
-KARSTEN: Hallo! Ich bin Karsten Känguru und werde dich heute für einen Tag begleiten! Ich werde dir dabei zeigen, wie wichtig das Energiesparen ist. Und du wirst sehen, dass
-		 das ganz viel Spaß machen kann und richtig cool ist! Also fangen wir doch gleich an! Jetzt ist es aber erst einmal Zeit aufzustehen!
+KARSTEN: Hallo! Ich bin Karsten KÃ¤nguru und werde dich heute fÃ¼r einen Tag begleiten! Ich werde dir dabei zeigen, wie wichtig das Energiesparen ist. Und du wirst sehen, dass das ganz viel SpaÃŸ machen kann und richtig cool ist! Also fangen wir doch gleich an! Jetzt ist es aber erst einmal Zeit aufzustehen!
 
-KIND wacht auf (Augen-öffnen-sich-Szene). Zu sehen ist das Kinderzimmer. MUTTER tritt ein.
+KIND wacht auf (Augen-Ã¶ffnen-sich-Szene). Zu sehen ist das Kinderzimmer. MUTTER tritt ein.
 
-MUTTER: Aufwachen, NAME_DES_KINDES! Geh schnell ins Bad und frühstücke, sonst kommst du noch zu spät zur Schule! Aber denk daran, das Licht auszumachen, wenn du aus dem Zimmer gehst. Das spart Strom!
+MUTTER: Aufwachen, du SchlafmÃ¼tze! Du hast aber ganz schÃ¶n lange geschlafen... und ich auch. Ich habe ein paar Sachen vergessen. Das Licht im Wohnzimmer ist noch eingeschaltet und in der KÃ¼che lÃ¤uft noch der Wasserhahn... machst du bitte das Licht aus und stellst das Wasser ab?
 
 KARSTEN kommt ins Bild
 
-KARSTEN: Es ist wichtig, dass du immer das Licht in Zimmern ausschaltest, wenn du diese verlässt. Das spart Strom und ist gut für die Umwelt!
+KARSTEN: Deine Mutti ist aber ganz schÃ¶n aus dem HÃ¤uschen! Hilf ihr am besten gleich mal. Mit den Pfeiltasten bewegst du dich durch das Haus. Suche den Lichtschalter und den Wasserhahn!
+
+FREIES BEWEGEN
 
 Minispiel zum Ausschalten des Lichts
-KARSTEN: Das ist aber ein ganz schönes Kabelgewirr! Zu jeder Lampe gibt es einen Schalter. Aber welcher ist der Richtige...? Folge den Kabeln und klicke dann den richtigen Schalter an.
+KARSTEN: Das ist aber ein ganz schÃ¶nes Kabelgewirr! Zu jeder Lampe gibt es einen Schalter. Aber welcher ist der Richtige...? Folge den Kabeln und klicke dann den richtigen Schalter an.
 -> positive Reaktion:
 KARSTEN: Das hast du toll gemacht!
 -> negative Reaktion:
 KARSTEN: Oh, da hast du wohl einen Fehler gemacht. Versuch es gleich nochmal, diesmal klappts bestimmt!
+MUTTER: Danke dir!
 
-Als Nächstes kommt das Bad
-
-MUTTER: Aber dusch nicht so lange, du kommst ja noch zu spät!
-
-Wieder Karsten
-
-KARSTEN: Warmes Wasser fühlt sich toll an! Aber wenn du beim Waschen den Wasserhahn ganz lange laufen lässt, verbraucht das ganz schön viel Wasser! Also pass auf, dass der Wasserhahn nicht zu lange läuft!
-
-Ansicht wechselt zu Waschbecken, daneben Lichtschalter, Minispiel zum Wasserhahn
+Minispiel zum Wasserhahn
 KARSTEN: Oh nein, der Riegel klemmt. Verschiebe die Teile so, dass du das Wasser stoppen kannst!
 -> positive Reaktion:
 KARSTEN: Gute Arbeit!
 -> negative Reaktion:
 KARSTEN: Hm, das ist noch nicht ganz richtig. Versuch es nochmal!
+MUTTER: Puh, danke sehr!
 
+DANACH 
 
-
-
-*************************************************************************************
-KARSTEN: Und nicht den Lichtschalter vergessen! Wenn du immer das Licht ausmachst, freuen sich bestimmt auch deine Eltern darüber!
-Minispiel für den Lichtschalter
-
-Küche, Licht scheint herein
-
-MUTTER: Hach, es ist ja wieder so hell! Da kannst du auch gleich das Licht ausmachen!
-
-Karsten erscheint
-
-KARSTEN: Wenn dein Zimmer ganz hell ist, weil viel Sonne hereinscheint, musst du ja nicht extra das Licht einschalten! Also musst du es gar nicht erst anmachen.
-Minispiel
-KARSTEN: Versuch einfach wieder, den richtigen Schalter zu finden. Das schaffst du!
--> positive Reaktion:
-KARSTEN: Das hast du prima gemacht!
--> negative Reaktion:
-KARSTEN: Upps, da war wohl ein Fehler. Probier es nochmal!
-*************************************************************************************
-
-
-
-
-Essen
-
-MUTTER: Das war ein leckeres Frühstück! Aber es ist ja schon so spät, also putz dir fix die Zähne!
-
-Wieder Bad, Ansicht wechselt zum Wasserhahn, Karsten erscheint
-
-KARSTEN: Auch beim Zähneputzen musst du nicht den Wasserhahn laufen lassen. Immer einmal kurz aufmachen und die Zahnbürste runterhalten, das reicht locker!
-
-
-
-
-
-
-*************************************************************************************
-Minispiel zum Wasserhahn, wenn das Kind einfach rausgehen will, greifen die Eltern ein („Du musst aber noch deine Zähne putzen!“)
-KARSTEN: Denk daran, du musst den richtigen Riegel finden. Das kriegst du ganz sicher nochmal hin!
--> positive Reaktion:
-KARSTEN: Das hast du toll gemacht, da freue ich mich!
--> negative Reaktion:
-KARSTEN: Oh, da hast du wohl einen Fehler gemacht. Versuch es gleich nochmal!
-*************************************************************************************
-
-
-
-MUTTER: Aber jetzt ganz schnell, NAME_DES_KIDNES! Du kommst sonst ja noch zu spät zur Schule!
+MUTTER: Vielen Dank, Liebling! Du hast mir sehr geholfen. Aber jetzt musst du dich beeilen, du kommst sonst ja noch zu spÃ¤t zur Schule!
 
 Szene wechselt danach in den Flur
 
-MUTTER: Hier ist dein Essen. Ich habe dir auch eine große Flasche Saft eingepackt!
+MUTTER: Hier ist dein Essen. Ich habe dir auch eine groÃŸe Flasche Saft eingepackt!
 Wieder Karsten
 
-KARSTEN: Plastikflaschen ohne Pfand erzeugen viel Müll! Pfandflaschen sind besser, denn die kannst du immer wieder auffüllen!
+KARSTEN: Plastikflaschen ohne Pfand erzeugen viel MÃ¼ll! Pfandflaschen sind besser, denn die kannst du immer wieder auffÃ¼llen!
 
-Szenenwechsel, vor der Haustür
+Szenenwechsel, vor der HaustÃ¼r
 
 Laufen zum Fahrrad
 
 Karsten erscheint
 
-KARSTEN: Auto und Bus sind schnell, verbrauchen aber Benzin! Dabei entstehen Abgase und die sind nicht gut für die Umwelt! Das Fahrrad verbraucht kein Benzin und du kriegst beim Fahren viel frische Luft. Also fahr doch mal damit!
+KARSTEN: Auto und Bus sind schnell, verbrauchen aber Benzin! Dabei entstehen Abgase und die sind nicht gut fÃ¼r die Umwelt! Das Fahrrad verbraucht kein Benzin und du kriegst beim Fahren viel frische Luft. Also fahr doch mal damit!
