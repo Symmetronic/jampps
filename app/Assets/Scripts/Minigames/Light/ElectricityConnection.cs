@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class ElectricityConnection : MonoBehaviour {
 
-	public GameObject OnState;
-	public GameObject OffState;
-	public bool Activated;
+	public GameObject onState;
+	public GameObject offState;
+	public bool activated;
+    private LightGameController lightGameController;
 
 	void Start() {
-		SetActive (Activated);
+        lightGameController = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<LightGameController>();
+		SetActive (activated);
 	}
 
 	public void SetActive(bool active) {
@@ -21,7 +23,7 @@ public class ElectricityConnection : MonoBehaviour {
 	}
 
 	public void ToggleActive() {
-		if (Activated) {
+		if (activated) {
 			SetOff ();
 		} else {
 			SetOn ();
@@ -29,15 +31,16 @@ public class ElectricityConnection : MonoBehaviour {
 	}
 
 	void SetOn() {
-		OffState.SetActive (false);
-		OnState.SetActive (true);
-		Activated = true;
+		offState.SetActive (false);
+		onState.SetActive (true);
+		activated = true;
 	}
 
 	void SetOff() {
-		OnState.SetActive (false);
-		OffState.SetActive (true);
-		Activated = false;
+		onState.SetActive (false);
+		offState.SetActive (true);
+		activated = false;
+        lightGameController.LightBulbChanged();
 	}
 
 }
