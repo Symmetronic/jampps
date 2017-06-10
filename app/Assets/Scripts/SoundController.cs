@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class SoundController : MonoBehaviour {
 
-	AudioSource audio;
-
-	void Start() {
-		audio = GetComponent<AudioSource>();
-	}
-
 	public void ToggleSound() {
-		if (audio.mute)
-			audio.mute = false;
-		else
-			audio.mute = true;
+        if (AudioListener.volume == 0.0f)
+            AudioListener.volume = 1.0f;
+        else
+            AudioListener.volume = 0.0f;
 	}
 }
