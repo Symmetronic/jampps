@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Energiespar-Helden.data.unityweb",
+"asmCodeUrl": "Energiespar-Helden.asm.code.unityweb",
+"asmMemoryUrl": "Energiespar-Helden.asm.memory.unityweb",
+"asmFrameworkUrl": "Energiespar-Helden.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
