@@ -26,37 +26,37 @@ public class PlayerBehaviourScript : MonoBehaviour
     void Update()
     {
         //if(Input.GetKey(""))
-        if (Input.GetKey("w"))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             reset();
-            player.transform.Translate(0, (float)0.1, 0);
-            System.Threading.Thread.Sleep(20);
+            player.transform.Translate(0, (float)0.06, 0);
+            
             anim.SetBool("run_up", true);
         }
-        if (Input.GetKey("a"))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             reset();
             anim.SetBool("run_up", false);
-            player.transform.Translate((float)-0.1, 0, 0);
-            System.Threading.Thread.Sleep(20);
+            player.transform.Translate((float)-0.06, 0, 0);
+           
             anim.SetBool("run_left", true);
         }
-        if (Input.GetKey("s"))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             reset();
-            player.transform.Translate(0, (float)-0.1, 0);
-            System.Threading.Thread.Sleep(20);
+            player.transform.Translate(0, (float)-0.06, 0);
+            
             anim.SetBool("run_down", true);
         }
-        if (Input.GetKey("d"))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             reset();
-            player.transform.Translate((float)0.1, 0, 0);
-            System.Threading.Thread.Sleep(20);
+            player.transform.Translate((float)0.06, 0, 0);
+            
             anim.SetBool("run_right", true);
         }
 
-        if(!Input.GetKey("w")&& !Input.GetKey("a")&&!Input.GetKey("s")&&!Input.GetKey("d"))
+        if(!Input.GetKey(KeyCode.UpArrow)&& !Input.GetKey(KeyCode.LeftArrow)&&!Input.GetKey(KeyCode.DownArrow)&&!Input.GetKey(KeyCode.RightArrow))
         {
             reset();
 
