@@ -8,3 +8,7 @@
 * [Ablaufkarte](/organisation/Ablaufkarte/Ablaufkarte.pdf)
 * [Design](/organisation/Spieldesign/Spieldesign.pdf)
 * [Protokolle](/organisation/Protokolle/)
+
+# Download
+
+Siehe bei den [releases](/releases).
