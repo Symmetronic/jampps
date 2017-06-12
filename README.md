@@ -11,4 +11,4 @@
 
 # Download
 
-Siehe bei den [releases](/releases).
+Siehe bei den [Releases](https://github.com/Symmetronic/jampps/releases).
