@@ -2,19 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwitchTrigger : MonoBehaviour {
+public class SwitchTriggerWithoutSceneSwitch : MonoBehaviour {
 public bool inTrigger;
    public GameObject textbox;
-   public int scene;
-
+   
 	void Update(){
 		
-		if (inTrigger)
-        {
-            if (Input.GetKeyDown("space")){		
-			UnityEngine.SceneManagement.SceneManager.LoadScene(scene);	
-			}
-		}
+		
 		
 	}
 	
