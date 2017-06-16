@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: 38fce369a4762ac419772929cf41c9a9
+timeCreated: 1496687459
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bicycle_0
+    21300002: bicycle_1
+    21300004: bicycle_2
+    21300006: bicycle_3
+    21300008: bicycle_4
+    21300010: bicycle_5
+    21300012: bicycle_6
+    21300014: bicycle_7
+    21300016: bicycle_8
+    21300018: bicycle_9
+    21300020: bicycle_10
+    21300022: bicycle_11
+    21300024: bicycle_12
+    21300026: bicycle_13
+    21300028: bicycle_14
+    21300030: bicycle_15
+    21300032: bicycle_16
+    21300034: bicycle_17
+    21300036: bicycle_18
+    21300038: bicycle_19
+    21300040: bicycle_20
+    21300042: bicycle_21
+    21300044: bicycle_22
+    21300046: bicycle_23
+    21300048: bicycle_24
+    21300050: bicycle_25
+    21300052: bicycle_26
+    21300054: bicycle_27
+    21300056: bicycle_28
+    21300058: bicycle_29
+    21300060: bicycle_30
+    21300062: bicycle_31
+    21300064: bicycle_32
+    21300066: bicycle_33
+    21300068: bicycle_34
+    21300070: bicycle_35
+    21300072: bicycle_36
+    21300074: bicycle_37
+    21300076: bicycle_38
+    21300078: bicycle_39
+    21300080: bicycle_40
+    21300082: bicycle_41
+    21300084: bicycle_42
+    21300086: bicycle_43
+    21300088: bicycle_44
+    21300090: bicycle_45
+    21300092: bicycle_46
+    21300094: bicycle_47
+    21300096: bicycle_48
+    21300098: bicycle_49
+    21300100: bicycle_50
+    21300102: bicycle_51
+    21300104: bicycle_52
+    21300106: bicycle_53
+    21300108: bicycle_54
+    21300110: bicycle_55
+    21300112: bicycle_56
+    21300114: bicycle_57
+    21300116: bicycle_58
+    21300118: bicycle_59
+    21300120: bicycle_60
+    21300122: bicycle_61
+    21300124: bicycle_62
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bicycle_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 456
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 458
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 460
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 460
+        width: 125
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 460
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 460
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 459
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 391
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 391
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 323
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 263
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 263
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 263
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_26
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 263
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 263
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 263
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 263
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_30
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 263
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 204
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 205
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 203
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 200
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_36
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 203
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_37
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 204
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_38
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 205
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 135
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 135
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 135
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 135
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_43
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 135
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 135
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_45
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 135
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_46
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 135
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_47
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_52
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 68
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_53
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_54
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 68
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_55
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_56
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 7
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_57
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 7
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_58
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 7
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 7
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_61
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 7
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicycle_62
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 7
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
