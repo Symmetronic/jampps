@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg5578"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="BausteineOhnePfeile.svg">
+  <defs
+     id="defs5580" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.28558704"
+     inkscape:cx="-121.78763"
+     inkscape:cy="280.59015"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5583">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       y="65.785393"
+       x="81.979286"
+       height="79.418549"
+       width="171.1687"
+       id="rect4918-1"
+       style="opacity:1;fill:#325d9b;fill-opacity:1;fill-rule:nonzero;stroke:#325d9b;stroke-width:4.1157937;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="196.65089"
+       x="84.009193"
+       height="78.342079"
+       width="276.15823"
+       id="rect4918-1-1"
+       style="opacity:1;fill:#325d9b;fill-opacity:1;fill-rule:nonzero;stroke:#325d9b;stroke-width:5.19226646;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="344.6716"
+       x="82.169411"
+       height="77.53183"
+       width="372.92871"
+       id="rect4918-1-16"
+       style="opacity:1;fill:#325d9b;fill-opacity:1;fill-rule:nonzero;stroke:#325d9b;stroke-width:6.00251627;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="-667.40796"
+       x="63.796036"
+       height="79.418549"
+       width="171.1687"
+       id="rect4918-1-7"
+       style="opacity:1;fill:#325d9b;fill-opacity:1;fill-rule:nonzero;stroke:#325d9b;stroke-width:4.1157937;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       y="549.99573"
+       x="87.441925"
+       height="79.418549"
+       width="171.1687"
+       id="rect4918-1-4-9"
+       style="opacity:1;fill:#74bdee;fill-opacity:1;fill-rule:nonzero;stroke:#004f95;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
