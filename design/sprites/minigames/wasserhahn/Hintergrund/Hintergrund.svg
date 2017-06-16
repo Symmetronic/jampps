@@ -16,7 +16,10 @@
    id="svg8610"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Hintergrund.svg">
+   sodipodi:docname="Hintergrund.svg"
+   inkscape:export-filename="C:\Users\Jessica\Documents\Studium\MeDida\jampps\jampps\design\sprites\minigames\wasserhahn\Hintergrund\Hintergrund.png"
+   inkscape:export-xdpi="258"
+   inkscape:export-ydpi="258">
   <defs
      id="defs8612">
     <linearGradient
@@ -50,8 +53,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="787.40636"
+     inkscape:zoom="1.0634223"
+     inkscape:cx="581.93766"
      inkscape:cy="362.17981"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -69,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
