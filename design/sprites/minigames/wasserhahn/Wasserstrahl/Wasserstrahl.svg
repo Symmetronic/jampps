@@ -9,16 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="39.059315mm"
+   height="183.81592mm"
+   viewBox="0 0 138.39915 651.31624"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="Wasserstrahl.svg"
-   inkscape:export-filename="C:\Users\Jessica\Documents\Studium\MeDida\jampps\jampps\design\sprites\minigames\wasserhahn\Wasserstrahl\Wasserstrahl.png"
-   inkscape:export-xdpi="258"
-   inkscape:export-ydpi="258">
+   inkscape:export-filename="C:\Users\Simon Hochholzer\Documents\Studium\TUD\Bachelor Medieninformatik\4. Semester\Medienpsychologie und -didaktik\Projekt\design\sprites\minigames\wasserhahn\Wasserstrahl\Wasserstrahl.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -28,17 +28,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6113281"
-     inkscape:cx="251.0161"
-     inkscape:cy="420.98986"
+     inkscape:zoom="0.56969051"
+     inkscape:cx="-301.51486"
+     inkscape:cy="332.96274"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -47,14 +51,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-159.58442,-207.89467)">
     <g
        id="g9727">
       <g

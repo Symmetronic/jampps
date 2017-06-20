@@ -10,16 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 1052.3622 744.09448"
+   width="273.62573mm"
+   height="194.05814mm"
+   viewBox="0 0 969.53999 687.60756"
    id="svg8610"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="Hintergrund.svg"
-   inkscape:export-filename="C:\Users\Jessica\Documents\Studium\MeDida\jampps\jampps\design\sprites\minigames\wasserhahn\Hintergrund\Hintergrund.png"
-   inkscape:export-xdpi="258"
-   inkscape:export-ydpi="258">
+   inkscape:export-filename="C:\Users\Simon Hochholzer\Documents\Studium\TUD\Bachelor Medieninformatik\4. Semester\Medienpsychologie und -didaktik\Projekt\design\sprites\minigames\wasserhahn\Hintergrund\Hintergrund.png"
+   inkscape:export-xdpi="300.01859"
+   inkscape:export-ydpi="300.01859">
   <defs
      id="defs8612">
     <linearGradient
@@ -42,7 +42,7 @@
        cy="682.07642"
        fx="524.75507"
        fy="682.07642"
-       r="452.22822"
+       r="452.22821"
        gradientTransform="matrix(1.3506419,0.01028645,-0.01023981,1.3445171,-177.0168,-240.38484)"
        gradientUnits="userSpaceOnUse" />
   </defs>
@@ -53,17 +53,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0634223"
-     inkscape:cx="581.93766"
-     inkscape:cy="362.17981"
+     inkscape:zoom="0.53171115"
+     inkscape:cx="373.791"
+     inkscape:cy="193.53839"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata8615">
     <rdf:RDF>
@@ -72,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,27 +84,30 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-308.26772)">
-    <rect
-       style="opacity:1;fill:#75abdf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.93531179;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect8618"
-       width="969.53998"
-       height="687.60754"
-       x="41.19363"
-       y="336.85971" />
-    <rect
-       style="opacity:1;fill:#e0effe;fill-opacity:1;fill-rule:nonzero;stroke:#1d4e7d;stroke-width:15;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect8620"
-       width="908.29901"
-       height="629.7276"
-       x="71.564758"
-       y="366.78409" />
-    <rect
-       y="373.39209"
-       x="77.601364"
-       height="617.36859"
-       width="894.30743"
-       id="rect9162"
-       style="opacity:1;fill:url(#radialGradient9238);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.149;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     transform="translate(-41.19363,-336.85971)">
+    <g
+       id="g4140">
+      <rect
+         y="336.85971"
+         x="41.19363"
+         height="687.60754"
+         width="969.53998"
+         id="rect8618"
+         style="opacity:1;fill:#75abdf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.93531179;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="366.78409"
+         x="71.564758"
+         height="629.7276"
+         width="908.29901"
+         id="rect8620"
+         style="opacity:1;fill:#e0effe;fill-opacity:1;fill-rule:nonzero;stroke:#1d4e7d;stroke-width:15;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:url(#radialGradient9238);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.14900017;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect9162"
+         width="894.30743"
+         height="617.36859"
+         x="77.601364"
+         y="373.39209" />
+    </g>
   </g>
 </svg>
