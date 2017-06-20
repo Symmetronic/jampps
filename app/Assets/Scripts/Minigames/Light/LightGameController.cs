@@ -6,7 +6,10 @@ public class LightGameController : MonoBehaviour {
 
     public GameObject[] lightBulbs;
     public string nextScene;
-	
+    public AudioSource failureAudio;
+    public GameObject errorMessage;
+    public GameObject karsten;
+
     private bool AllLightBulbsOff()
     {
         foreach (GameObject lightBulb in lightBulbs)
@@ -23,12 +26,22 @@ public class LightGameController : MonoBehaviour {
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
     }
 
-	public void LightBulbChanged ()
+	public void LightBulbChanged (bool notifyFailure)
     {
-        if (AllLightBulbsOff())
+        if (notifyFailure)
         {
+            failureAudio.Play();
+            ShowErrorMessage();
+        } else if (AllLightBulbsOff()) {
             EndGame();
         }
+    }
+
+    private void ShowErrorMessage()
+    {
+        VisibilityController visibilityController = errorMessage.GetComponent<VisibilityController>();
+        visibilityController.Show(errorMessage);
+        visibilityController.Show(karsten);
     }
 
 

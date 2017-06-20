@@ -16,7 +16,7 @@ public class ElectricityConnection : MonoBehaviour {
 
 	public void SetActive(bool active) {
 		if (active) {
-			SetOn ();
+			SetOn (false);
 		} else {
 			SetOff ();
 		}
@@ -30,17 +30,18 @@ public class ElectricityConnection : MonoBehaviour {
 		}
 	}
 
-	void SetOn() {
+	void SetOn(bool playSound=true) {
 		offState.SetActive (false);
 		onState.SetActive (true);
 		activated = true;
+        lightGameController.LightBulbChanged(playSound);
 	}
 
 	void SetOff() {
 		onState.SetActive (false);
 		offState.SetActive (true);
 		activated = false;
-        lightGameController.LightBulbChanged();
+        lightGameController.LightBulbChanged(false);
 	}
 
 }
