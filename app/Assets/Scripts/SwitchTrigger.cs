@@ -5,7 +5,7 @@ using UnityEngine;
 public class SwitchTrigger : MonoBehaviour {
 public bool inTrigger;
    public GameObject textbox;
-   public int scene;
+   public string scene;
 
 	void Update(){
 		

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class change_scene_without_space: MonoBehaviour
 {
-    public int scene;
+    public string scene;
 
    
     void OnTriggerEnter2D(Collider2D player)
