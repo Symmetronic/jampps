@@ -6,9 +6,11 @@ public class LightGameController : MonoBehaviour {
 
     public GameObject[] lightBulbs;
     public string nextScene;
+    public string minigameName;
     public AudioSource failureAudio;
     public GameObject errorMessage;
     public GameObject karsten;
+    private int score = 0;
 
     private bool AllLightBulbsOff()
     {
@@ -23,11 +25,13 @@ public class LightGameController : MonoBehaviour {
 
     private void EndGame()
     {
+        GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore(minigameName, score);
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
     }
 
 	public void LightBulbChanged (bool notifyFailure)
     {
+        RaiseScore();
         if (notifyFailure)
         {
             failureAudio.Play();
@@ -42,6 +46,11 @@ public class LightGameController : MonoBehaviour {
         VisibilityController visibilityController = errorMessage.GetComponent<VisibilityController>();
         visibilityController.Show(errorMessage);
         visibilityController.Show(karsten);
+    }
+
+    private void RaiseScore()
+    {
+        score++;
     }
 
 
