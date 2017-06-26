@@ -32,21 +32,21 @@ public class PlayerBehaviourScript : MonoBehaviour
             reset();
             //     player.transform.Translate(0, (float)0.06, 0);
        
-            rigid.velocity = new Vector2(0, 4);
+            rigid.velocity = new Vector2(0, 3);
             anim.SetBool("run_up", true);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             reset();
             //  player.transform.Translate((float)-0.06, 0, 0);
-            rigid.velocity = new Vector2(-4, 0);
+            rigid.velocity = new Vector2(-3, 0);
             anim.SetBool("run_left", true);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             reset();
             //player.transform.Translate(0, (float)-0.06, 0);
-            rigid.velocity = new Vector2(0, -4);
+            rigid.velocity = new Vector2(0, -3);
 
             anim.SetBool("run_down", true);
         }
@@ -54,7 +54,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         {
             reset();
             //  player.transform.Translate((float)0.06, 0, 0);
-            rigid.velocity = new Vector2(4, 0);
+            rigid.velocity = new Vector2(3, 0);
 
             anim.SetBool("run_right", true);
         }
