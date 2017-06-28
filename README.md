@@ -1,8 +1,8 @@
 <img src="/design/logo/logo.png" alt="jampps logo" height="200">
 
 # Todos
-* [Muss-Kriterien](https://github.com/Symmetronic/jampps/issues?q=is%3Aissue is%3Aopen label%3Amust)
-* [Kann-Kriterien](https://github.com/Symmetronic/jampps/issues?q=is%3Aissue is%3Aopen label%3Acan)
+* [Muss-Kriterien](https://github.com/Symmetronic/jampps/issues?q=is%3Aissue%20is%3Aopen%20label%3Amust)
+* [Kann-Kriterien](https://github.com/Symmetronic/jampps/issues?q=is%3Aissue%20is%3Aopen%20label%3Acan)
 
 # Organisatorisches
 
