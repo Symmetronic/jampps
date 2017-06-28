@@ -13,40 +13,14 @@ public class minigame_snake : MonoBehaviour
     void Start()
     {
         InvokeRepeating("Move", 0.05f, 0.05f);
-        InvokeRepeating("Longer", 0.5f, 0.5f);
+        //InvokeRepeating("Longer", 0.1f, 0.1f);
     }
 
     void Update()
     {
-        /*/      if (Input.GetKey(KeyCode.RightArrow))
-                  if (dir == -Vector2.right)
-                  {
-                      dir = Vector2.right;
-                  }
-                  else dir = Vector2.right;
-
-              else if (Input.GetKey(KeyCode.DownArrow))
-
-                  if (dir == Vector2.up)
-                  {
-                      dir = -Vector2.up;
-                  }
-                  else dir = -Vector2.up;
-
-              else if (Input.GetKey(KeyCode.LeftArrow))
-                  if (dir == Vector2.right)
-                  {
-                      dir = -Vector2.right;
-                  }
-                  else dir = -Vector2.right;
-
-              else if (Input.GetKey(KeyCode.UpArrow))
-                  if (dir == -Vector2.up)
-                  {
-                      dir = Vector2.up;
-                  }
-                  else dir = Vector2.up;
-                  /*/
+        Longer();
+        
+      
         if (dir == -Vector2.right)
         {
 
