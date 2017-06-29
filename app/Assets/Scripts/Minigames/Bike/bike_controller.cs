@@ -30,7 +30,7 @@ public class bike_controller : MonoBehaviour {
         
         }
 
-        if (background.transform.position.y < -70 ) {
+        if (background.transform.position.y < -75 ) {
             if (i > 80) { UnityEngine.SceneManagement.SceneManager.LoadScene("Chapter2_Top-Down_Outside"); }
             player.transform.Translate(0,(float)0.03, 0);
             i++;

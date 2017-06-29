@@ -11,6 +11,6 @@ public class bike_map_movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		background.transform.Translate (0, (float)-0.05, 0);
+		background.transform.Translate (0, (float)-0.04, 0);
 	}
 }

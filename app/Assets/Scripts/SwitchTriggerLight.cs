@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwitchTrigger : MonoBehaviour {
+public class SwitchTriggerLight : MonoBehaviour {
 public bool inTrigger;
    public GameObject textbox;
    public string scene;
@@ -11,7 +11,7 @@ public bool inTrigger;
 		
 		if (inTrigger)
         {
-            if (Input.GetKeyDown("space")){		
+            if (Input.GetKeyDown("space") ){		
 			UnityEngine.SceneManagement.SceneManager.LoadScene(scene);	
 			}
 		}
@@ -22,6 +22,8 @@ public bool inTrigger;
 		
 		inTrigger = true;
         textbox.SetActive(true);
+
+        // if water != 0 textbox.text = play light!
 
 
     }
