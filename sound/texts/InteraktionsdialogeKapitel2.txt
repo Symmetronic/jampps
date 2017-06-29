@@ -1,0 +1,61 @@
+An der Schule
+
+KARSTEN: Das ging aber fix! Jetzt lauf aber schnell in die Schule, du kommst ja sonst noch zu spät.
+
+In der Schule, Klassenraum
+
+
+//
+Option 1, wenn Snake-Minispiel vorhanden, VOR dem Wasserminispiel:
+LEHRER: Jetzt sind alle da! Aber wir können noch gar nicht anfangen. Das Licht funktioniert nicht. 
+	Irgendwas mit den Solarzellen scheint nicht zu stimmen... aber was machen wir denn jetzt?
+KARSTEN: Jetzt kannst du mal zeigen, was du so draufhast! Wir reparieren jetzt Solarzellen!
+-> Minispiel
+KARSTEN: Siehst du dieses Labyrinth? Das Kabel, das du steuerst, muss ans andere Ende. Bewege es mit den Pfeiltasten
+	 durch dieses Labyrinth und pass auf, dass du nicht an die Wände kommst!
+Wenn positiv, KARSTEN: Prima, das hast du richtig toll gemacht!
+Wenn negativ, KARSTEN (NUR ALLE ZWEI ODER DREI FEHLVERSUCHE): Da bist du wohl an eine Wand geraten. Versuch es nochmal!
+LEHRER: Wow, da bin ich beeindruckt! So sehen Helden aus! Dann können wir ja auch gleich schon anfangen. 
+	Wir malen heute ein wenig. Dafür habt ihr alle Papier und Stifte bekommen.
+//
+
+LEHRER: Ach, da bist du ja! Dann können wir ja auch gleich schon anfangen. Wir malen heute ein wenig. 
+	Dafür habt ihr alle Papier und Stifte bekommen.
+KARSTEN: Auf so ein Blatt kann man viele Sachen schreiben. Schmeiß das Blatt aber nicht gleich weg, 
+	 nur weil schon etwas draufsteht. So sparst du Papier, das ist gut für die Umwelt.
+LEHRER: Ach Mensch, da hat der Lehrerin vor mir wohl die Tafel abgewischt und den Wasserhahn nicht richtig zugemacht.
+	Kann das jemand von euch machen?
+KARSTEN: Mach das bitte doch gleich einmal. Auch, wenn der Hahn nur tropft, 
+	 kann auf Dauer viel Wasser verloren gehen. 
+
+Minispiel
+Wenn positiv, KARSTEN: Super Arbeit!
+Wenn negativ, KARSTEN: Das ist noch nicht ganz richtig. Versuche es nochmal.
+
+LEHRER nach dem Minispiel: Danke sehr! Dann kanns ja jetzt richtig losgehen!
+
+-> hier Abblende, sofern kein Snakeminispiel
+
+
+//
+Option 2, wenn Snake-Minispiel vorhanden, NACH dem Wasserminispiel:
+Licht fällt aus
+LEHRER: Oh weia, das Licht ist ausgefallen!  Irgendwas mit den Solarzellen scheint nicht zu stimmen... aber was machen wir denn jetzt?
+KARSTEN: Jetzt kannst du mal zeigen, was du so draufhast! Wir reparieren jetzt Solarzellen!
+-> Minispiel
+KARSTEN: Siehst du dieses Labyrinth? Das Kabel, das du steuerst, muss ans andere Ende. Bewege es mit den Pfeiltasten
+	 durch dieses Labyrinth und pass auf, dass du nicht an die Wände kommst!
+Wenn positiv, KARSTEN: Prima, das hast du richtig toll gemacht!
+Wenn negativ, KARSTEN (NUR ALLE ZWEI ODER DREI FEHLVERSUCHE): Da bist du wohl an eine Wand geraten. Versuch es nochmal!
+LEHRER: Wow, da bin ich beeindruckt! So sehen Helden aus! Dann können wir ja auch gleich schon anfangen. 
+	Wir malen heute ein wenig. Dafür habt ihr alle Papier und Stifte bekommen.
+//
+
+Aufblende
+LEHRER: Das war eine schöne Stunde. Und die Schule ist ja auch schon wieder vorbei! Also ab mit euch nach Hause!
+
+Vor der Schule
+
+KARSTEN: Das war doch eine tolle Schulstunde. Jetzt aber ab nach Hause! Du hast dein Fahrrad ja noch hier.
+
+

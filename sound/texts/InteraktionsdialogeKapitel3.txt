@@ -1,0 +1,45 @@
+KAPITEL 3
+
+Vor dem Haus (bzw. Grundstück um das Haus herum):
+
+KARSTEN: Du warst ja schnell gerade eben! Aber sieh mal, das Windrad steht still, es scheint kaputt zu sein. 
+	 Aber das kann man wieder reparieren! Versuch das doch gleich einmal!
+-> Snake-Minispiel zum Reparieren
+Wenn positiv, KARSTEN: Prima, jetzt funktioniert es wieder!
+Wenn negativ, KARSTEN (NUR ALLE ZWEI ODER DREI FEHLVERSUCHE): Versuche, von den Wänden fernzubleiben. Du schaffst das!
+Danach
+KARSTEN: Mit Windrädern kann man viel Strom erzeugen. Sonne, Wind und Wasser sind die besten Arten, um Strom zu machen,
+	 denn sie schaden der Umwelt nicht.  
+MUTTER: Da bist du ja wieder! Komm ins Haus, es gibt Essen!
+
+Abblende
+Aufblende, Haus
+
+MUTTER: Das war lecker. Und jetzt ist es auch schon spät... du siehst ja auch schon ziemlich müde aus.
+	Geh heute am besten etwas früher ins Bett, dann wachst du morgen auch nicht mehr so spät auf.
+	Machst du noch kurz das Licht in der Küche aus?
+KARSTEN: Hilf deiner Mutter doch noch einmal kurz und mach das Licht aus, ja?
+-> Minispiel zum Lichtausschalten
+Wenn positiv, KARSTEN: So muss das sein!
+Wenn negativ, KARSTEN: Upps, da hat sich wohl ein Fehler eingeschlichen. Probier es doch noch einmal.
+
+Abblende, Aufblende, Bett, Licht aus usw.
+MUTTER: Das war ein toller Tag! Schlaf schön und bis morgen.
+Abblende
+
+KARSTEN: So fix war der Tag rum? Das ist ja erstaunlich. Wie hast du dich denn so geschlagen?
+
+-> Wenn Minispiele alle perfekt abgeschlossen
+KARSTEN: Du hast dich heute richtig toll geschlagen! So sieht ein echter Energiesparheld aus!
+-> Ab und zu mal Fehler
+KARSTEN: Du hast ein paar kleine Fehler in manchen Spielen gemacht, aber das macht nichts, denn du hast
+	 dich wacker geschlagen! Tolle Arbeit.
+-> Ein paar mehr Fehler
+KARSTEN: Du hast ein paar Fehler bei manchen Spielen gemacht, aber das macht nichts, du kannst es nochmal
+	 von vorne versuchen und wirst dann bestimmt besser!
+-> Viele Fehler:
+KARSTEN: Du hast dich etwas oft vertan. Probier es doch noch einmal von vorn, dann bist du bestimmt besser!
+
+Nach Bewertung
+KARSTEN: Ich hatte viel Spaß heute und hoffe, du hattest es auch. Du kannst im Hauptmenü natürlich noch einmal spielen.
+
