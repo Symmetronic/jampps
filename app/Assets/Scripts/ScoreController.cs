@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScoreController : MonoBehaviour {
     private GameScore score = new GameScore();
 
+    /* Minigame score getters */
     public float GetLightMinigame1Score()
     {
         return score.light1;
@@ -13,6 +14,11 @@ public class ScoreController : MonoBehaviour {
     public float GetLightMinigame2Score()
     {
         return score.light2;
+    }
+
+    public float GetSnakeMinigame2Score()
+    {
+        return score.snake2;
     }
 
     public float GetWaterMinigame1Score()
@@ -25,11 +31,13 @@ public class ScoreController : MonoBehaviour {
         return score.water2;
     }
 
+    /* Use this function to add a score to a minigame */
     public void AddScore(string minigame, int score)
     {
         this.score.AddScore(minigame, score);
     }
 
+    /* Check if chapter is complete */
     public bool ChapterComplete(int chapter)
     {
         switch(chapter)
@@ -43,13 +51,14 @@ public class ScoreController : MonoBehaviour {
                     return true;
                 break;
             case 3:
-                if (SolvedLightMinigame2())
+                if (SolvedLightMinigame2() && SolvedSnakeMinigame2())
                     return true;
                 break;
         }
         return false;
     }
 
+    /* Check if minigames are solved */
     public bool SolvedLightMinigame1()
     {
         return GetLightMinigame1Score() > 0;
@@ -58,6 +67,11 @@ public class ScoreController : MonoBehaviour {
     public bool SolvedLightMinigame2()
     {
         return GetLightMinigame2Score() > 0;
+    }
+
+    public bool SolvedSnakeMinigame2()
+    {
+        return GetSnakeMinigame2Score() > 0;
     }
 
     public bool SolvedWaterMinigame1()
@@ -74,13 +88,15 @@ public class ScoreController : MonoBehaviour {
 class GameScore
 {
     public float light1 = 0;
-    private int light1Opt = 3;
+    private int light1Opt = 2;
     public float light2 = 0;
-    private int light2Opt;
+    private int light2Opt = 3;
+    public float snake2 = 0;
+    private int snake2Opt; // TODO: Optimum fuer snake minispiel eingeben
     public float water1 = 0;
-    private int water1Opt = 17;
+    private int water1Opt = 15;
     public float water2 = 0;
-    public int water2Opt;
+    public int water2Opt = 17;
 
     public void AddScore(string minigame, int score)
     {
@@ -91,6 +107,9 @@ class GameScore
                 break;
             case "light2":
                 light2 = (float)light2Opt / (float)score;
+                break;
+            case "snake2":
+                snake2 = (float)snake2Opt / (float)score;
                 break;
             case "water1":
                 water1 = (float)water1Opt / (float)score;
