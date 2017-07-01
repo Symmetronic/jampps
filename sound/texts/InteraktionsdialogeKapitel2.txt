@@ -21,9 +21,8 @@ LEHRER: Wow, da bin ich beeindruckt! So sehen Helden aus! Dann können wir ja auc
 
 LEHRER: Ach, da bist du ja! Dann können wir ja auch gleich schon anfangen. Wir malen heute ein wenig. 
 	Dafür habt ihr alle Papier und Stifte bekommen.
-KARSTEN: Auf so ein Blatt kann man viele Sachen schreiben. Schmeiß das Blatt aber nicht gleich weg, 
-	 nur weil schon etwas draufsteht. So sparst du Papier, das ist gut für die Umwelt.
-LEHRER: Ach Mensch, da hat der Lehrerin vor mir wohl die Tafel abgewischt und den Wasserhahn nicht richtig zugemacht.
+KARSTEN: Auf so ein Blatt kann man viele Sachen schreiben. Schmeiß das Blatt nicht gleich weg, sondern verwende es mehrmals! Das spart Papier und ist gut für die Umwelt.
+LEHRER: Ach Mensch, da hat die Lehrerin vor mir wohl die Tafel abgewischt und den Wasserhahn nicht richtig zugemacht.
 	Kann das jemand von euch machen?
 KARSTEN: Mach das bitte doch gleich einmal. Auch, wenn der Hahn nur tropft, 
 	 kann auf Dauer viel Wasser verloren gehen. 

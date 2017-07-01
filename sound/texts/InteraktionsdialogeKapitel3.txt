@@ -3,21 +3,19 @@ KAPITEL 3
 Vor dem Haus (bzw. Grundstück um das Haus herum):
 
 KARSTEN: Du warst ja schnell gerade eben! Aber sieh mal, das Windrad steht still, es scheint kaputt zu sein. 
-	 Aber das kann man wieder reparieren! Versuch das doch gleich einmal!
+	 Aber das kann man wieder reparieren! Versuch das doch gleich mal!
 -> Snake-Minispiel zum Reparieren
 Wenn positiv, KARSTEN: Prima, jetzt funktioniert es wieder!
 Wenn negativ, KARSTEN (NUR ALLE ZWEI ODER DREI FEHLVERSUCHE): Versuche, von den Wänden fernzubleiben. Du schaffst das!
 Danach
 KARSTEN: Mit Windrädern kann man viel Strom erzeugen. Sonne, Wind und Wasser sind die besten Arten, um Strom zu machen,
-	 denn sie schaden der Umwelt nicht.  
+	 denn sie sind besser für die Umwelt.  
 MUTTER: Da bist du ja wieder! Komm ins Haus, es gibt Essen!
 
 Abblende
 Aufblende, Haus
 
-MUTTER: Das war lecker. Und jetzt ist es auch schon spät... du siehst ja auch schon ziemlich müde aus.
-	Geh heute am besten etwas früher ins Bett, dann wachst du morgen auch nicht mehr so spät auf.
-	Machst du noch kurz das Licht in der Küche aus?
+MUTTER: Das war lecker. Und jetzt ist es auch schon spät. Du siehst auch schon ziemlich müde aus. Machst du noch kurz das Licht in der Küche aus, bevor du ins Bett gehst?
 KARSTEN: Hilf deiner Mutter doch noch einmal kurz und mach das Licht aus, ja?
 -> Minispiel zum Lichtausschalten
 Wenn positiv, KARSTEN: So muss das sein!
@@ -41,5 +39,4 @@ KARSTEN: Du hast ein paar Fehler bei manchen Spielen gemacht, aber das macht nic
 KARSTEN: Du hast dich etwas oft vertan. Probier es doch noch einmal von vorn, dann bist du bestimmt besser!
 
 Nach Bewertung
-KARSTEN: Ich hatte viel Spaß heute und hoffe, du hattest es auch. Du kannst im Hauptmenü natürlich noch einmal spielen.
-
+KARSTEN: Ich hatte viel Spaß heute und hoffe, du hattest es auch. Du kannst im Hauptmenü natürlich noch einmal von vorne starten.
