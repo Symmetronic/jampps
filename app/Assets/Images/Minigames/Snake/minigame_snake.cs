@@ -12,12 +12,13 @@ public class minigame_snake : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("Move", 0.05f, 0.05f);
+       
         //InvokeRepeating("Longer", 0.1f, 0.1f);
     }
 
     void Update()
     {
+        Move();
         Longer();
         
       
