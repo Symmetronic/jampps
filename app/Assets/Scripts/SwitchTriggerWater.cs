@@ -10,7 +10,7 @@ public bool inTrigger;
 
     private void Start()
     {
-        scorecontroller = GameObject.FindGameObjectWithTag("score").GetComponent<ScoreController>();
+        scorecontroller = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
     }
 
     void Update(){
