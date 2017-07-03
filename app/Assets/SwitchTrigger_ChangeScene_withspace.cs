@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwitchTriggerBike : MonoBehaviour
+public class SwitchTrigger_ChangeScene_withspace : MonoBehaviour
 {
     public bool inTrigger;
     public GameObject textbox;
