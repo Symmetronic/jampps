@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class SwitchTriggerWater : MonoBehaviour {
 public bool inTrigger;
-   public GameObject textbox;
-   public string scene;
+    public GameObject textbox;
+    public string scene;
+    ScoreController scorecontroller;
 
-	void Update(){
+    private void Start()
+    {
+        scorecontroller = GameObject.FindGameObjectWithTag("score").GetComponent<ScoreController>();
+    }
+
+    void Update(){
 		
 		if (inTrigger)
         {
-            if (Input.GetKeyDown("space")){		
+            if (Input.GetKeyDown("space") && !scorecontroller.SolvedWaterMinigame1()){		
 			UnityEngine.SceneManagement.SceneManager.LoadScene(scene);	
 			}
 		}
@@ -19,10 +25,13 @@ public bool inTrigger;
 	}
 	
 	void OnTriggerEnter2D (Collider2D player){
-		
-		inTrigger = true;
-        textbox.SetActive(true);
 
+        if (!scorecontroller.SolvedWaterMinigame1())
+        {
+            inTrigger = true;
+            textbox.SetActive(true);
+
+        }
 
     }
 

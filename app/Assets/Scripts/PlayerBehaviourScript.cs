@@ -7,9 +7,26 @@ public class PlayerBehaviourScript : MonoBehaviour
     public GameObject player;
     public Rigidbody2D rigid;
     public Animator anim;
+    ScoreController scoreController;
+
     // Use this for initialization
     void Start()
     {
+        scoreController = GameObject.FindGameObjectWithTag("score").GetComponent<ScoreController>();
+        int i = 1;
+        if (scoreController.SolvedLightMinigame1())
+        {
+            player.transform.Translate((float)-5.2, -4, 0);
+        }
+        else
+        {
+            if (scoreController.SolvedWaterMinigame1())
+            {
+                player.transform.Translate((float)-7.3, 1, 0);
+            }
+        }
+
+
         anim = GetComponent<Animator>();
     }
     private void reset()

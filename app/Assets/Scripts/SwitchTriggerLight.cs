@@ -1,15 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SwitchTriggerLight : MonoBehaviour {
 public bool inTrigger;
-   public GameObject textbox;
-   public string scene;
+public GameObject textbox;
+public string scene;
+ScoreController scoreController;
 
-	void Update(){
-		
-		if (inTrigger)
+
+    private void Start()
+    {
+      scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
+    }
+
+
+    void Update(){
+
+		if (inTrigger && !scoreController.SolvedLightMinigame1())
         {
             if (Input.GetKeyDown("space") ){		
 			UnityEngine.SceneManagement.SceneManager.LoadScene(scene);	
@@ -19,10 +28,11 @@ public bool inTrigger;
 	}
 	
 	void OnTriggerEnter2D (Collider2D player){
-		
-		inTrigger = true;
-        textbox.SetActive(true);
-
+		    		
+        if(!scoreController.SolvedLightMinigame1()) {
+            inTrigger = true;
+            textbox.SetActive(true);
+        }
         // if water != 0 textbox.text = play light!
 
 
