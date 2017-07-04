@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bike_oncoming_car : MonoBehaviour {
-	public GameObject background;
+public class ChangeScene : MonoBehaviour {
+    public string scene;
 	// Use this for initialization
-	void Start () {
-		
-	}
+	public void Change () {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		background.transform.Translate (0, (float)-0.04, 0);
+		
 	}
 }
