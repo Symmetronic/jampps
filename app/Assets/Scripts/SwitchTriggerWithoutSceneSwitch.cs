@@ -5,18 +5,21 @@ using UnityEngine;
 public class SwitchTriggerWithoutSceneSwitch : MonoBehaviour {
 public bool inTrigger;
    public GameObject textbox;
-   
+    
+
 	void Update(){
-		
+
+        
 		
 		
 	}
 	
 	void OnTriggerEnter2D (Collider2D player){
-		
-		inTrigger = true;
-        textbox.SetActive(true);
 
+        
+            inTrigger = true;
+            textbox.SetActive(true);
+        
 
     }
 
