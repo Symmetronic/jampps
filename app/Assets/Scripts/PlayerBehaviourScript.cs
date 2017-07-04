@@ -13,7 +13,18 @@ public class PlayerBehaviourScript : MonoBehaviour
     void Start()
     {
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
-        
+
+        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame2())
+        {
+
+        }
+        else
+            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
+        {
+            player.transform.position = new Vector3(14, 4, 0);
+            GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3(14, 4, 0);
+        }
+
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1())
         {
 
@@ -36,14 +47,18 @@ public class PlayerBehaviourScript : MonoBehaviour
             }
         }
 
-
-        if (scoreController.SolvedWaterMinigame2())
+        
         {
-            player.transform.Translate((float)7.6, (float)-0.5, 0);
-            GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)7.6, (float)3.4, 0);
+            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() == 0)
+            {
+                player.transform.Translate((float)7.6, (float)-0.5, 0);
+                GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)7.6, (float)3.4, 0);
+                scoreController.AddScore("bike", 10);
+            }
         }
 
 
+        
 
 
 

@@ -31,6 +31,11 @@ public class ScoreController : MonoBehaviour {
         return score.water2;
     }
 
+    public float GetBike()
+    {
+        return score.bike;
+    }
+
     /* Use this function to add a score to a minigame */
     public void AddScore(string minigame, int score)
     {
@@ -97,6 +102,7 @@ class GameScore
     private int water1Opt = 15;
     public float water2 = 0;
     public int water2Opt = 17;
+    public int bike= 0;
 
     public void AddScore(string minigame, int score)
     {
@@ -117,6 +123,10 @@ class GameScore
             case "water2":
                 water2 = (float)water2Opt / (float)score;
                 break;
+            case "bike":
+                bike = score;
+                break;
+
         }
     }
 }
