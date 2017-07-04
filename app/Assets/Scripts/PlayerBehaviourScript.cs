@@ -13,8 +13,7 @@ public class PlayerBehaviourScript : MonoBehaviour
     void Start()
     {
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
-        int i = 1;
-
+        
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1())
         {
 
@@ -36,6 +35,17 @@ public class PlayerBehaviourScript : MonoBehaviour
                 }
             }
         }
+
+
+        if (scoreController.SolvedWaterMinigame2())
+        {
+            player.transform.Translate((float)7.6, (float)-0.5, 0);
+            GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)7.6, (float)3.4, 0);
+        }
+
+
+
+
 
         anim = GetComponent<Animator>();
     }
