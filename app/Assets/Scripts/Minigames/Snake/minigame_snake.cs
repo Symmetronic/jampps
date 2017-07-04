@@ -8,6 +8,8 @@ public class minigame_snake : MonoBehaviour
     Vector2 dir = Vector2.down;
     public GameObject snake;
     public GameObject tail;
+   
+
 
 
     void Start()
@@ -75,5 +77,9 @@ public class minigame_snake : MonoBehaviour
     {
         // Load Prefab into the world
         GameObject g = (GameObject)Instantiate(tail, snake.transform.position, Quaternion.identity);
+    }
+    public void Stop()
+    {
+        dir = new Vector2(0, 0);
     }
 }
