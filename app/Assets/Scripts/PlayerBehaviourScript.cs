@@ -16,16 +16,18 @@ public class PlayerBehaviourScript : MonoBehaviour
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
         maincamera = GameObject.FindGameObjectWithTag("MainCamera");
 
-        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame())
+        if (/*scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() &&*/ scoreController.SolvedSnakeMinigame())
         {
             player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
             maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            GameObject.FindGameObjectWithTag("wind_turbine").GetComponent<Animator>().enabled = true;
+
         }
         else
             if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
         {
-            player.transform.position = new Vector3(14, 4, 0);
-            maincamera.transform.position = new Vector3(14, 4, 0);
+            player.transform.position = new Vector3(14,(float) 4.6, 0);
+            maincamera.transform.position = new Vector3(14, (float)4.6, 0);
         }
 
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1())
