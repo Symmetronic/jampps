@@ -99,7 +99,7 @@ class GameScore
     public float snake = 0;
     private int snakeOpt = 1;
     public float water1 = 0;
-    private int water1Opt = 15;
+    private int water1Opt = 11;
     public float water2 = 0;
     public int water2Opt = 17;
     public int bike= 0;
