@@ -26,10 +26,11 @@ public class SwitchTrigger_ChangeScene_withspace : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D player)
     {
-        
+        if (!GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().SolvedSnakeMinigame())
+        {
             inTrigger = true;
             textbox.SetActive(true);
-        
+        }
     }
 
     void OnTriggerExit2D(Collider2D player)
