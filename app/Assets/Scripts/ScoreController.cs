@@ -99,7 +99,7 @@ class GameScore
     public float snake2 = 0;
     private int snake2Opt; // TODO: Optimum fuer snake minispiel eingeben
     public float water1 = 0;
-    private int water1Opt = 15;
+    private int water1Opt = 11;
     public float water2 = 0;
     public int water2Opt = 17;
     public int bike= 0;
