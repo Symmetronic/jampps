@@ -10,15 +10,27 @@ public class OnTrigger : MonoBehaviour {
     public GameObject karsten;
     public GameObject snake_controller;
     public bool finish;
+    private bool flawless;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!finish)
+        {
+            GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().SetSnakeFlawless(false);
+        }
         snake_controller.GetComponent<minigame_snake>().Stop();
         audio.Play();
         ShowMessage();
-        if(finish == true)
+        if(finish)
         {
-            GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore("snake", 1);
+            if (!GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().GetSnakeFlawless())
+            {
+                GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore("snake", 10);
+            }
+            else
+            {
+                GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore("snake", 1);
+            }
         }
     }
 

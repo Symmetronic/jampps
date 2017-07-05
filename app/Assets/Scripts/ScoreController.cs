@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreController : MonoBehaviour {
     private GameScore score = new GameScore();
-
+    private bool snakeFlawless=true;
     /* Minigame score getters */
     public float GetLightMinigame1Score()
     {
@@ -88,6 +88,16 @@ public class ScoreController : MonoBehaviour {
     {
         return GetWaterMinigame2Score() > 0;
     }
+
+    //Functions for SnakeScore
+    public void SetSnakeFlawless(bool value)
+    {
+        snakeFlawless = value;
+    }
+    public bool GetSnakeFlawless()
+    {
+        return snakeFlawless;
+    }
 }
 
 class GameScore
@@ -129,5 +139,6 @@ class GameScore
 
         }
     }
+  
 }
 
