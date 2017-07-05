@@ -16,9 +16,9 @@ public class ScoreController : MonoBehaviour {
         return score.light2;
     }
 
-    public float GetSnakeMinigame2Score()
+    public float GetSnakeMinigameScore()
     {
-        return score.snake2;
+        return score.snake;
     }
 
     public float GetWaterMinigame1Score()
@@ -56,7 +56,7 @@ public class ScoreController : MonoBehaviour {
                     return true;
                 break;
             case 3:
-                if (SolvedLightMinigame2() && SolvedSnakeMinigame2())
+                if (SolvedLightMinigame2() && SolvedSnakeMinigame())
                     return true;
                 break;
         }
@@ -74,9 +74,9 @@ public class ScoreController : MonoBehaviour {
         return GetLightMinigame2Score() > 0;
     }
 
-    public bool SolvedSnakeMinigame2()
+    public bool SolvedSnakeMinigame()
     {
-        return GetSnakeMinigame2Score() > 0;
+        return GetSnakeMinigameScore() > 0;
     }
 
     public bool SolvedWaterMinigame1()
@@ -96,8 +96,8 @@ class GameScore
     private int light1Opt = 2;
     public float light2 = 0;
     private int light2Opt = 3;
-    public float snake2 = 0;
-    private int snake2Opt; // TODO: Optimum fuer snake minispiel eingeben
+    public float snake = 0;
+    private int snakeOpt = 1;
     public float water1 = 0;
     private int water1Opt = 15;
     public float water2 = 0;
@@ -114,8 +114,8 @@ class GameScore
             case "light2":
                 light2 = (float)light2Opt / (float)score;
                 break;
-            case "snake2":
-                snake2 = (float)snake2Opt / (float)score;
+            case "snake":
+                snake = (float)snakeOpt / (float)score;
                 break;
             case "water1":
                 water1 = (float)water1Opt / (float)score;
