@@ -5,6 +5,8 @@ using UnityEngine;
 public class ScoreController : MonoBehaviour {
     private GameScore score = new GameScore();
     private bool snakeFlawless=true;
+    private bool ateDinner = false;
+    private bool enteredHouse = false;
     /* Minigame score getters */
     public float GetLightMinigame1Score()
     {
@@ -97,6 +99,24 @@ public class ScoreController : MonoBehaviour {
     public bool GetSnakeFlawless()
     {
         return snakeFlawless;
+    }
+
+    public void SetAteDinner(bool value)
+    {
+        ateDinner = value;
+    }
+    public bool GetAteDinner()
+    {
+        return ateDinner;
+    }
+
+    public void SetEnteredHouse(bool value)
+    {
+        enteredHouse = value;
+    }
+    public bool GetEnteredHouse()
+    {
+        return enteredHouse;
     }
 }
 

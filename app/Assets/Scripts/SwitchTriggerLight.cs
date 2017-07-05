@@ -17,8 +17,15 @@ ScoreController scoreController;
 
 
     void Update(){
+        if (inTrigger && scoreController.GetAteDinner())
+        {
+            if (Input.GetKeyDown("space"))
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+            }
 
-		if (inTrigger && !scoreController.SolvedLightMinigame1())
+        }
+        else if (inTrigger && !scoreController.SolvedLightMinigame1())
         {
             if (Input.GetKeyDown("space") ){		
 			UnityEngine.SceneManagement.SceneManager.LoadScene(scene);	
@@ -28,8 +35,13 @@ ScoreController scoreController;
 	}
 	
 	void OnTriggerEnter2D (Collider2D player){
-		    		
-        if(!scoreController.SolvedLightMinigame1()) {
+
+        if (scoreController.SolvedSnakeMinigame()&& scoreController.GetAteDinner())
+        {
+            inTrigger = true;
+            textbox.SetActive(true);
+        }
+        else if (!scoreController.SolvedLightMinigame1()) {
             inTrigger = true;
             textbox.SetActive(true);
         }

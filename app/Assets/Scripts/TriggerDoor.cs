@@ -11,6 +11,7 @@ public class TriggerDoor : MonoBehaviour
 
         if (GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().SolvedSnakeMinigame())
         {
+            GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().SetEnteredHouse(true);
             UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
         }
     }

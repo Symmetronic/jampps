@@ -8,22 +8,24 @@ public class PlayerBehaviourScript : MonoBehaviour
     public Rigidbody2D rigid;
     public Animator anim;
     ScoreController scoreController;
+    GameObject maincamera;
 
     // Use this for initialization
     void Start()
     {
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
+        maincamera = GameObject.FindGameObjectWithTag("MainCamera");
 
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame())
         {
             player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
-            GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
         }
         else
             if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
         {
             player.transform.position = new Vector3(14, 4, 0);
-            GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3(14, 4, 0);
+            maincamera.transform.position = new Vector3(14, 4, 0);
         }
 
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1())
@@ -35,7 +37,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             if (scoreController.SolvedLightMinigame1())
             {
                 player.transform.Translate((float)-5.2, -4, 0);
-                GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)-5.2, (float)-4, 0);
+                maincamera.transform.Translate((float)-5.2, (float)-4, 0);
 
             }
             else
@@ -43,19 +45,32 @@ public class PlayerBehaviourScript : MonoBehaviour
                 if (scoreController.SolvedWaterMinigame1())
                 {
                     player.transform.Translate((float)-7.312, (float)1, 0);
-                    GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)-7.334, (float)1, 0);
+                    maincamera.transform.Translate((float)-7.334, (float)1, 0);
                 }
             }
         }
-
         
-        {
-            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() == 0)
+        if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() == 0)
             {
                 player.transform.Translate((float)7.6, (float)-0.5, 0);
-                GameObject.FindGameObjectWithTag("MainCamera").transform.Translate((float)7.6, (float)3.4, 0);
+                maincamera.transform.Translate((float)7.6, (float)3.4, 0);
                 scoreController.AddScore("bike", 10);
             }
+   
+        if(scoreController.GetEnteredHouse())
+        {
+            player.transform.position = new Vector3(0, (float)-3.6, 0);
+            maincamera.transform.position = new Vector3(0, (float)-3.6, 0);
+        }
+        if (scoreController.GetAteDinner())
+        {
+            player.transform.position = new Vector3(-4, (float)2.2, 0);
+            maincamera.transform.position = new Vector3(-4, (float)2.2, 0);
+        }
+        if (scoreController.SolvedLightMinigame2())
+        {
+            player.transform.position = new Vector3((float)4.2, (float)1.5, 0);
+            maincamera.transform.position = new Vector3((float)4.2, (float)1.5, 0);
         }
 
         anim = GetComponent<Animator>();
