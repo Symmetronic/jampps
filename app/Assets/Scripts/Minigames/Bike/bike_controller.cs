@@ -47,10 +47,7 @@ public class bike_controller : MonoBehaviour {
             visibilityController.Show(mistake);
             visibilityController.Show(Karsten);
             
-            
-    
 
-    
 			
 		}
 	}

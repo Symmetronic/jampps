@@ -14,9 +14,10 @@ public class PlayerBehaviourScript : MonoBehaviour
     {
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
 
-        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame2())
+        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame())
         {
-
+            player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3((float)-1.67, (float)3.63, 0);
         }
         else
             if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
@@ -56,11 +57,6 @@ public class PlayerBehaviourScript : MonoBehaviour
                 scoreController.AddScore("bike", 10);
             }
         }
-
-
-        
-
-
 
         anim = GetComponent<Animator>();
     }

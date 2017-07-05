@@ -9,12 +9,17 @@ public class OnTrigger : MonoBehaviour {
     public GameObject message;
     public GameObject karsten;
     public GameObject snake_controller;
+    public bool finish;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         snake_controller.GetComponent<minigame_snake>().Stop();
         audio.Play();
         ShowMessage();
+        if(finish == true)
+        {
+            GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore("snake", 1);
+        }
     }
 
     private void ShowMessage()
