@@ -8,9 +8,7 @@ public class minigame_snake : MonoBehaviour
     Vector2 dir = Vector2.down;
     public GameObject snake;
     public GameObject tail;
-    public GameObject wind_turbine;
-
-
+    
 
     void Start()
     {
