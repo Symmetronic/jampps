@@ -38,6 +38,14 @@ public class ScoreController : MonoBehaviour {
         return score.bike;
     }
 
+    public string GetBadge(string minigame)
+    {
+        float minigameScore = score.GetScore(minigame);
+        if (minigameScore >= 0.75)
+            return "gold";
+        return "silver";
+    }
+
     /* Use this function to add a score to a minigame */
     public void AddScore(string minigame, int score)
     {
@@ -118,6 +126,11 @@ public class ScoreController : MonoBehaviour {
     {
         return enteredHouse;
     }
+
+    public void ResetScore()
+    {
+        score.ResetScore();
+    }
 }
 
 class GameScore
@@ -153,12 +166,35 @@ class GameScore
             case "water2":
                 water2 = (float)water2Opt / (float)score;
                 break;
-            case "bike":
-                bike = score;
-                break;
-
         }
     }
-  
-}
 
+    public float GetScore(string minigame)
+    {
+        switch (minigame)
+        {
+            case "light1":
+                return light1;
+            case "light2":
+                return light2;
+            case "snake":
+                return snake;
+            case "water1":
+                return water1;
+            case "water2":
+                return water2;
+            default:
+                return 0f;
+        }
+    }
+
+    public void ResetScore()
+    {
+        light1 = 0f;
+        light2 = 0f;
+        snake = 0f;
+        water1 = 0f;
+        water2 = 0f;
+    }
+
+}

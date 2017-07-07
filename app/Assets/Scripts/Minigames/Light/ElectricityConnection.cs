@@ -11,14 +11,14 @@ public class ElectricityConnection : MonoBehaviour {
 
 	void Start() {
         lightGameController = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<LightGameController>();
-		SetActive (activated);
+		SetActive (activated, true);
 	}
 
-	public void SetActive(bool active) {
+	public void SetActive(bool active, bool init=false) {
 		if (active) {
-			SetOn (false);
+			SetOn (false, init);
 		} else {
-			SetOff ();
+			SetOff (init);
 		}
 	}
 
@@ -30,18 +30,20 @@ public class ElectricityConnection : MonoBehaviour {
 		}
 	}
 
-	void SetOn(bool playSound=true) {
+	void SetOn(bool playSound=true, bool init=false) {
 		offState.SetActive (false);
 		onState.SetActive (true);
 		activated = true;
-        lightGameController.LightBulbChanged(playSound);
+		if (!init)
+        	lightGameController.LightBulbChanged(playSound);
 	}
 
-	void SetOff() {
+	void SetOff(bool init=false) {
 		onState.SetActive (false);
 		offState.SetActive (true);
 		activated = false;
-        lightGameController.LightBulbChanged(false);
+		if (!init)
+        	lightGameController.LightBulbChanged(false);
 	}
 
 }
