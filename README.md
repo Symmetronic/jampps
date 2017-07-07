@@ -1,4 +1,4 @@
-<img src="/design/logo/logo.png" alt="jampps logo" height="200">
+<img src="/design/logo/black/logo_black.png" alt="jampps logo" height="200">
 
 # Todos
 * [Muss-Kriterien](https://github.com/Symmetronic/jampps/issues?q=is%3Aissue%20is%3Aopen%20label%3Amust)
@@ -16,3 +16,7 @@
 # Download
 
 Siehe bei den [Releases](https://github.com/Symmetronic/jampps/releases).
+
+# License
+
+Take a look at the [LICENSE](/LICENSE) file.
