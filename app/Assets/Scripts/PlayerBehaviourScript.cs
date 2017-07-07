@@ -16,7 +16,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
         maincamera = GameObject.FindGameObjectWithTag("MainCamera");
 
-        if (/*scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() &&*/ scoreController.SolvedSnakeMinigame())
+        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame() && !scoreController.GetEnteredHouse())
         {
             player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
             maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
