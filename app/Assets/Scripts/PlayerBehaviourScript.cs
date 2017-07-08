@@ -40,13 +40,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             }
         }
         
-        // Rückfahrt
-        if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() == 0)
-            {
-                player.transform.Translate((float)7.6, (float)-0.5, 0);
-                maincamera.transform.Translate((float)7.6, (float)3.4, 0);
-                scoreController.AddScore("bike", 10);
-            }
+        
 
         // Scene after Snake
         if (scoreController.SolvedSnakeMinigame() && !scoreController.GetEnteredHouse())
@@ -59,11 +53,19 @@ public class PlayerBehaviourScript : MonoBehaviour
         else
         {
 
-            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
+            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike())
             {
                 player.transform.position = new Vector3(14, (float)4.6, 0);
                 maincamera.transform.position = new Vector3(14, (float)4.6, 0);
             }
+        }
+
+        // Rückfahrt
+        if (scoreController.SolvedWaterMinigame2() && !scoreController.GetBike())
+        {
+            player.transform.Translate((float)7.6, (float)-0.5, 0);
+            maincamera.transform.Translate((float)7.6, (float)3.4, 0);
+            scoreController.SetBike(true);
         }
 
         if (scoreController.GetEnteredHouse())

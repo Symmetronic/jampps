@@ -7,6 +7,7 @@ public class ScoreController : MonoBehaviour {
     private bool snakeFlawless=true;
     private bool ateDinner = false;
     private bool enteredHouse = false;
+    private bool bike = false;
     /* Minigame score getters */
     public float GetLightMinigame1Score()
     {
@@ -33,9 +34,9 @@ public class ScoreController : MonoBehaviour {
         return score.water2;
     }
 
-    public float GetBike()
+    public bool GetBike()
     {
-        return score.bike;
+        return this.bike;
     }
 
     public string GetBadge(string minigame)
@@ -131,6 +132,12 @@ public class ScoreController : MonoBehaviour {
     {
         score.ResetScore();
     }
+
+    public void SetBike(bool bike)
+    {
+        this.bike = bike;
+    }
+    
 }
 
 class GameScore
@@ -145,7 +152,7 @@ class GameScore
     private int water1Opt = 11;
     public float water2 = 0;
     public int water2Opt = 17;
-    public int bike= 0;
+   
 
     public void AddScore(string minigame, int score)
     {
