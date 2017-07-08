@@ -31,14 +31,19 @@ public class OnTrigger : MonoBehaviour {
             {
                 GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>().AddScore("snake", 1);
             }
+            SceneManager.LoadScene("MinigameSnakeFeedback");
         }
+       
     }
 
     private void ShowMessage()
     {
-        VisibilityController visibilityController = message.GetComponent<VisibilityController>();
-        visibilityController.Show(message);
-        visibilityController.Show(karsten);
+        if (!finish)
+        {
+            VisibilityController visibilityController = message.GetComponent<VisibilityController>();
+            visibilityController.Show(message);
+            visibilityController.Show(karsten);
+        }
     }
 
 
