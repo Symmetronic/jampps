@@ -50,6 +50,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
             maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
             GameObject.FindGameObjectWithTag("wind_turbine").GetComponent<Animator>().enabled = true;
+            GameObject.FindGameObjectWithTag("Attention_Snake").SetActive(false);
 
         }
         else
