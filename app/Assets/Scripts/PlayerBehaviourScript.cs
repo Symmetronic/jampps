@@ -28,6 +28,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             {
                 player.transform.Translate((float)-5.2, -4, 0);
                 maincamera.transform.Translate((float)-5.2, (float)-4, 0);
+                GameObject.FindGameObjectWithTag("Attention_Light1").SetActive(false);
 
             }
             else
@@ -36,6 +37,7 @@ public class PlayerBehaviourScript : MonoBehaviour
                 {
                     player.transform.Translate((float)-7.312, (float)1, 0);
                     maincamera.transform.Translate((float)-7.334, (float)1, 0);
+                    GameObject.FindGameObjectWithTag("Attention_Water1").SetActive(false);
                 }
             }
         }
