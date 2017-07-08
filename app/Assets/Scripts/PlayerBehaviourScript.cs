@@ -81,6 +81,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         {
             player.transform.position = new Vector3(-4, (float)2.2, 0);
             maincamera.transform.position = new Vector3(-4, (float)2.2, -10);
+            GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(true);
         }
         if (scoreController.SolvedLightMinigame2())
         {
