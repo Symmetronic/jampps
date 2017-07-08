@@ -15,6 +15,7 @@ public class PlayerBehaviourScript : MonoBehaviour
     {
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
         maincamera = GameObject.FindGameObjectWithTag("MainCamera");
+        maincamera.transform.Translate(0, 0, -10);
 
         
         // Chapter 1
@@ -48,7 +49,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         if (scoreController.SolvedSnakeMinigame() && !scoreController.GetEnteredHouse())
         {
             player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
-            maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, -10);
             GameObject.FindGameObjectWithTag("wind_turbine").GetComponent<Animator>().enabled = true;
             GameObject.FindGameObjectWithTag("Attention_Snake").SetActive(false);
 
@@ -59,7 +60,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike())
             {
                 player.transform.position = new Vector3(14, (float)4.6, 0);
-                maincamera.transform.position = new Vector3(14, (float)4.6, 0);
+                maincamera.transform.position = new Vector3(14, (float)4.6, -10);
             }
         }
 
@@ -74,17 +75,17 @@ public class PlayerBehaviourScript : MonoBehaviour
         if (scoreController.GetEnteredHouse())
         {
             player.transform.position = new Vector3(0, (float)-3.6, 0);
-            maincamera.transform.position = new Vector3(0, (float)-3.6, 0);
+            maincamera.transform.position = new Vector3(0, (float)-3.6, -10);
         }
         if (scoreController.GetAteDinner())
         {
             player.transform.position = new Vector3(-4, (float)2.2, 0);
-            maincamera.transform.position = new Vector3(-4, (float)2.2, 0);
+            maincamera.transform.position = new Vector3(-4, (float)2.2, -10);
         }
         if (scoreController.SolvedLightMinigame2())
         {
             player.transform.position = new Vector3((float)4.2, (float)1.5, 0);
-            maincamera.transform.position = new Vector3((float)4.2, (float)1.5, 0);
+            maincamera.transform.position = new Vector3((float)4.2, (float)1.5, -10);
             GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(false);
         }
 
