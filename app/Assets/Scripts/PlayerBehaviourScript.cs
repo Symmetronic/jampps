@@ -84,6 +84,7 @@ public class PlayerBehaviourScript : MonoBehaviour
         {
             player.transform.position = new Vector3((float)4.2, (float)1.5, 0);
             maincamera.transform.position = new Vector3((float)4.2, (float)1.5, 0);
+            GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(false);
         }
 
         anim = GetComponent<Animator>();
