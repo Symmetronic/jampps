@@ -9,10 +9,13 @@ public class SwitchTrigger_ChangeScene_withspace_home : MonoBehaviour
     public string scene;
     ScoreController scoreController;
 
+	void Start()
+	{
+		scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
+	}
+
     void Update()
     {
-        scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
-
         if (inTrigger)
         {
             if (scoreController.SolvedWaterMinigame2() && Input.GetKeyDown("space"))
