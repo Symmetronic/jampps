@@ -16,20 +16,8 @@ public class PlayerBehaviourScript : MonoBehaviour
         scoreController = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreController>();
         maincamera = GameObject.FindGameObjectWithTag("MainCamera");
 
-        if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1() && scoreController.SolvedWaterMinigame2() && scoreController.SolvedSnakeMinigame() && !scoreController.GetEnteredHouse())
-        {
-            player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
-            maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
-            GameObject.FindGameObjectWithTag("wind_turbine").GetComponent<Animator>().enabled = true;
-
-        }
-        else
-            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
-        {
-            player.transform.position = new Vector3(14,(float) 4.6, 0);
-            maincamera.transform.position = new Vector3(14, (float)4.6, 0);
-        }
-
+        
+        // Chapter 1
         if (scoreController.SolvedLightMinigame1() && scoreController.SolvedWaterMinigame1())
         {
 
@@ -52,14 +40,33 @@ public class PlayerBehaviourScript : MonoBehaviour
             }
         }
         
+        // Rückfahrt
         if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() == 0)
             {
                 player.transform.Translate((float)7.6, (float)-0.5, 0);
                 maincamera.transform.Translate((float)7.6, (float)3.4, 0);
                 scoreController.AddScore("bike", 10);
             }
-   
-        if(scoreController.GetEnteredHouse())
+
+        // Scene after Snake
+        if (scoreController.SolvedSnakeMinigame() && !scoreController.GetEnteredHouse())
+        {
+            player.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            maincamera.transform.position = new Vector3((float)-1.67, (float)3.63, 0);
+            GameObject.FindGameObjectWithTag("wind_turbine").GetComponent<Animator>().enabled = true;
+
+        }
+        else
+        {
+
+            if (scoreController.SolvedWaterMinigame2() && scoreController.GetBike() > 0)
+            {
+                player.transform.position = new Vector3(14, (float)4.6, 0);
+                maincamera.transform.position = new Vector3(14, (float)4.6, 0);
+            }
+        }
+
+        if (scoreController.GetEnteredHouse())
         {
             player.transform.position = new Vector3(0, (float)-3.6, 0);
             maincamera.transform.position = new Vector3(0, (float)-3.6, 0);
