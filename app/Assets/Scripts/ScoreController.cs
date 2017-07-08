@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreController : MonoBehaviour {
     private GameScore score = new GameScore();
-    private bool snakeFlawless=true;
+    private bool snakeFlawless = true;
     private bool ateDinner = false;
     private bool enteredHouse = false;
     private bool bike = false;
@@ -56,7 +56,7 @@ public class ScoreController : MonoBehaviour {
     /* Check if chapter is complete */
     public bool ChapterComplete(int chapter)
     {
-        switch(chapter)
+        switch (chapter)
         {
             case 1:
                 if (SolvedLightMinigame1() && SolvedWaterMinigame1())
@@ -131,14 +131,20 @@ public class ScoreController : MonoBehaviour {
     public void ResetScore()
     {
         score.ResetScore();
+        this.bike = false;
+        this.snakeFlawless = true;
+        this.ateDinner = false;
+        this.enteredHouse = false;
     }
 
     public void SetBike(bool bike)
     {
         this.bike = bike;
+
     }
+
     
-}
+ }
 
 class GameScore
 {
