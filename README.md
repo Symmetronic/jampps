@@ -14,6 +14,10 @@
 * [Design](/organisation/Spieldesign/Spieldesign.pdf)
 * [Protokolle](/organisation/Protokolle/)
 
+# Online spielen
+
+Man kann das fertige Spiel auf den Seiten der Technischen Universit&auml;t Dresden [online spielen](https://is63050.inf.tu-dresden.de/~maxfle/).
+
 # Download
 
 Siehe bei den [Releases](https://github.com/Symmetronic/jampps/releases).
