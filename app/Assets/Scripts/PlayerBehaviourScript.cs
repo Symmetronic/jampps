@@ -89,7 +89,7 @@ public class PlayerBehaviourScript : MonoBehaviour
             maincamera.transform.position = new Vector3((float)4.2, (float)1.5, -10);
             GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(false);
         }
-
+        
         anim = GetComponent<Animator>();
     }
     private void reset()

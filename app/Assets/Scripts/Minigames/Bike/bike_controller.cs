@@ -48,9 +48,9 @@ public class bike_controller : MonoBehaviour {
 		}
         else
         {
-            if (background.transform.position.y < -75)
+            if (background.transform.position.y < -36)
             {
-                if (i > 90) { UnityEngine.SceneManagement.SceneManager.LoadScene("Chapter2_Top-Down_Outside"); }
+                if (i > 100) { UnityEngine.SceneManagement.SceneManager.LoadScene("Chapter2_Top-Down_Outside"); }
                 player.transform.Translate(0, (float)0.03, 0);
                 i++;
             }
