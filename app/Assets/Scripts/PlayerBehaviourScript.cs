@@ -81,13 +81,13 @@ public class PlayerBehaviourScript : MonoBehaviour
         {
             player.transform.position = new Vector3(-4, (float)2.2, 0);
             maincamera.transform.position = new Vector3(-4, (float)2.2, -10);
-            GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(true);
+            GameObject.FindGameObjectWithTag("Attention_Light2").GetComponent<Renderer>().sortingOrder = 2;
         }
         if (scoreController.SolvedLightMinigame2())
         {
             player.transform.position = new Vector3((float)4.2, (float)1.5, 0);
             maincamera.transform.position = new Vector3((float)4.2, (float)1.5, -10);
-            GameObject.FindGameObjectWithTag("Attention_Light2").SetActive(false);
+            GameObject.FindGameObjectWithTag("Attention_Light2").GetComponent<Renderer>().sortingOrder = -1;
         }
         
         anim = GetComponent<Animator>();
